@@ -1,0 +1,27 @@
+#include <iostream>
+- esto incluye la biblioteca que nos permite usar std::cout y std::cin
+- iostream -> significa input/ouput stream (flujo de entrada y salida).
+
+
+
+int main() { … 
+
+- main -> es la función principal; el punto de inicio de donde se ejecuta nuestro programa
+- int  -> significa que la función devuelve un numero entero (por convención, si devuelve 0; significa que todo es OK).
+
+
+
+
+std::cout << " Hola, mundo!! " << std::endl;
+
+- std::cout -> flujo de salida estándar, normalmente la pantalla
+- << -> operador para enviar datos al flujo (en este caso es texto)
+- " Hola, mundo!! " -> texto que se va a mostrar por pantalla
+- std::endl -> fin de la linea (como ENTER) y también limpia el búfer de salida.
+
+
+
+return 0;
+ 
+-esto indica que el programa termino correctamente..
+-si pones otro valor (ejemplo -> return 1), significa que hubo un error (o depende de como se use).
