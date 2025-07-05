@@ -1,2 +1,2 @@
-# C-
-aprendiendo C++
+# Cmasmas
+aprendiendo  a programar en C++
